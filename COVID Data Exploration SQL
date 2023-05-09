@@ -126,7 +126,7 @@ FROM PercentPopulationVaccinated
 
 -- Saved Temp Table As A View & Named Dataset & Temp Table.
 
--- Create A Bucket, bigquery_exports_project. Exported Data To Be Used/Uploaded For Later Visualisations
+-- Created A Bucket, bigquery_exports_project. Exported Data To Be Used/Uploaded For Later Visualisations
 
 EXPORT DATA OPTIONS (
     uri='gs://bigquery_exports_project/populationvaccinated*.csv',
